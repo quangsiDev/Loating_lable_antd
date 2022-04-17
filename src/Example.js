@@ -3,12 +3,11 @@ import { Input } from "antd";
 import LoatLabelWrapper from "./LoatLabelWrapper/LoatLabelWrapper";
 
 const Example = (props) => {
-  const [firstName, setFirstName] = useState("Nikhil");
-  const [lastName, setLastName] = useState("Mahirrao");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
 
   return (
     <div className="example">
-      <h3>Example</h3>
       <LoatLabelWrapper label="First Name" name="firstName" value={firstName}>
         <Input
           value={firstName}

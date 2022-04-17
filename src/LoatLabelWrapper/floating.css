@@ -19,3 +19,24 @@
 .ant-select-single .ant-select-selector .ant-select-selection-search {
   top: 16px;
 }
+/* float effect */
+.float-label {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 12px;
+  top: 12px;
+  transition: 0.2s ease all;
+}
+
+.label-float {
+  background: blue;
+  top: -8px;
+  font-size: 10px;
+}
