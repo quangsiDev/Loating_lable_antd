@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "./index.css";
+import "./floating.css";
 
 const LoatLabelWrapper = (props) => {
   const [focus, setFocus] = useState(false);
